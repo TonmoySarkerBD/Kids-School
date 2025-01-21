@@ -611,7 +611,11 @@ footer {
         margin-bottom: 3rem;
     }
 
-    .story-card-1,
+    .story-card-1{
+        display: none;
+    }
+
+    /* .story-card-1, */
     .story-card-2,
     .story-card-3,
     .story-card-4,
@@ -619,7 +623,7 @@ footer {
         grid-area: unset;
     }
 
-    .story-card-1 img,
+    /* .story-card-1 img, */
     .story-card-2 img,
     .story-card-3 img,
     .story-card-4 img,
