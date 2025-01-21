@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids School</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -60,44 +62,86 @@
     <main>
 
         <!-- Standard Carriculum -->
-         <section class="curriculum">
+        <section class="curriculum">
 
             <h2 class="section-title">Standard Carriculum</h2>
 
-             <!-- .curriculum-card*3>img.card-img+h2.card-title+p.card-dis+button.btn-extra -->
-             <div class="card">
+            <!-- .curriculum-card*3>img.card-img+h2.card-title+p.card-dis+button.btn-extra -->
+            <div class="card">
                 <div class="curriculum-card card-1">
                     <img src="./assets/kinder.png" alt="kinder" class="card-img">
                     <h2 class="card-title">Kinder (3-6) Years</h2>
-                    <p class="card-dis">Cum sociis natoque penatibus et magnis
-                        dis parturient montes, nascetur ridiculus
-                        mu sdis parturient</p>
-                    <button class="btn-extra">Read More</button>
+                    <p class="card-dis">children are building skills that prepare them for school and life. Their
+                        bodies, brains, and feelings are continuing to develop</p>
+                    <button class="btn-extra" id="btn-1">Read More</button>
                 </div>
                 <div class="curriculum-card card-2">
                     <img src="./assets/elementary.png" alt="Elementary" class="card-img">
                     <h2 class="card-title">Elementary School</h2>
-                    <p class="card-dis">Cum sociis natoque penatibus et magnis
-                        dis parturient montes, nascetur ridiculus
-                        mu sdis parturient</p>
-                    <button class="btn-extra">Read More</button>
+                    <p class="card-dis">An elementary school is a school where children are taught for the first six or
+                        sometimes eight years of their education</p>
+                    <button class="btn-extra" id="btn-2">Read More</button>
                 </div>
                 <div class="curriculum-card card-3">
                     <img src="./assets/middle.png" alt="middle" class="card-img">
                     <h2 class="card-title">Middle (10-16) Years</h2>
-                    <p class="card-dis">Cum sociis natoque penatibus et magnis
-                        dis parturient montes, nascetur ridiculus
-                        mu sdis parturient</p>
-                    <button class="btn-extra">Read more</button>
+                    <p class="card-dis">Middle school, also known as intermediate school, junior high school is an
+                        educational stage between primary and secondary school.</p>
+                    <button class="btn-extra" id="btn-3">Read more</button>
                 </div>
-             </div>
-             <div class="more-card">
-                 <p><i class="fa-solid fa-chevron-left"></i></p>
+            </div>
+            <div class="more-card">
+                <p><i class="fa-solid fa-chevron-left"></i></p>
                 <p><i class="fa-solid fa-chevron-right"></i></p>
-             </div>
+            </div>
 
-         </section>
-
+        </section>
+        <!-- Story Section -->
+        <section class="story">
+            <h2 class="section-title" id="story-title">Our Stories</h2>
+            <div class="stories">
+                <div class="story-card-1">
+                    <img src="./assets/story-1.png" alt="A fun toddler coloring training on
+            classroom" class="story-img">
+                    <p class="story-date" id="cd-1">November 19, 2019</p>
+                    <h2 class="story-title">A fun toddler coloring training on
+                        classroom</h2>
+                    <p class="story-dis">
+                        Beautiful branding for changes by Never Now in Australia.
+                        changes is a platform for open discussion in an inclusive and
+                        collaborative environment, providing the...
+                    </p>
+                </div>
+                <div class="story-card-2">
+                    <img src="./assets/story-2.png" alt="Find out if a school fits the
+            family’s needs" class="story-img">
+                    <p class="story-date" id="cd-2">November 19, 2019</p>
+                    <h2 class="story-title">Find out if a school fits the
+                        family’s needs</h2>
+                </div>
+                <div class="story-card-3">
+                    <img src="./assets/story-3.png" alt="Summer math & literacy" class="story-img">
+                    <p class="story-date" id="cd-3">November 19, 2019</p>
+                    <h2 class="story-title">Summer math & literacy
+                        centres for kids</h2>
+                </div>
+                <div class="story-card-4">
+                    <img src="./assets/story-4.png" alt="Classroom management
+            techniques for new tutors" class="story-img">
+                    <p class="story-date" id="cd-4">September 19, 2019</p>
+                    <h2 class="story-title">Classroom management
+                        techniques for new tutors</h2>
+                </div>
+                <div class="story-card-5">
+                    <img src="./assets/story-5.png" alt="Conversation rhymes
+            improve kids listening" class="story-img">
+                    <p class="story-date" id="cd-5">July 19, 2019</p>
+                    <h2 class="story-title">Conversation rhymes
+                        improve kids listening</h2>
+                </div>
+            </div>
+            <button class="btn" id="enroll">View All</button>
+        </section>
 
     </main>
 
