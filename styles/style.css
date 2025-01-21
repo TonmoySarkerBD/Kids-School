@@ -145,6 +145,16 @@ nav {
 }
 
 
+/* Marquee section */
+
+marquee{
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: var(--color-1);
+}
+
+
+
 /* Banner Section */
 
 
@@ -525,6 +535,11 @@ footer {
         background: none;
         border: none;
         font-size: 2rem;
+    }
+
+    /* marquee */
+    marquee{
+        margin-top: 10px;
     }
 
     /* Banner Area */
