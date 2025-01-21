@@ -86,15 +86,6 @@ section {
 
 
 
-
-
-/* Header Styles */
-
-header {
-    margin: 0px 10%;
-}
-
-
 /* Nav Style */
 
 nav {
@@ -104,6 +95,7 @@ nav {
     padding: 20px 0px;
     text-align: center;
     align-items: center;
+    margin: 0 10%;
 }
 
 
@@ -148,6 +140,11 @@ nav {
 }
 
 
+.nav-menu-icon {
+    display: none;
+}
+
+
 /* Banner Section */
 
 
@@ -157,6 +154,7 @@ nav {
     align-items: center;
     gap: 4rem;
     justify-content: space-between;
+    padding: 0 10%;
 }
 
 .banner-text {
@@ -480,4 +478,212 @@ footer {
 
 .social {
     padding: 4rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Responsive Area */
+
+@media screen and (max-width: 576px) {
+
+    /* Nav Area */
+
+    .brand-text {
+        display: none;
+    }
+
+    nav {
+        margin: 0;
+        padding: 1% 5%;
+        border: 0.5px solid var(--color-1);
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-menu-icon {
+        display: contents;
+    }
+
+    .nav-menu-icon button {
+        background: none;
+        border: none;
+        font-size: 2rem;
+    }
+
+    /* Banner Area */
+
+    .banner {
+        padding: 0 5%;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .banner br {
+        display: none;
+    }
+
+    .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 3rem;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .banner-dis {
+        margin: 40px 0px;
+    }
+
+    #enroll {
+        margin-bottom: 50px;
+    }
+
+    /* Standard Carriculum */
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+
+    .card {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .curriculum {
+        gap: 20px;
+        padding: 0 5%;
+    }
+
+    .curriculum-card {
+        padding: 36px 28px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 18px;
+    }
+
+    .card-dis {
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    .btn-extra {
+        margin-top: 0;
+    }
+
+    .more-card {
+        display: none;
+    }
+
+
+    /* Story Section */
+
+    .story{
+        padding: 0 5%;
+    }
+
+    .stories {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        border-radius: 10%;
+        margin-bottom: 3rem;
+    }
+
+    .story-card-1,
+    .story-card-2,
+    .story-card-3,
+    .story-card-4,
+    .story-card-5 {
+        grid-area: unset;
+    }
+
+    .story-card-1 img,
+    .story-card-2 img,
+    .story-card-3 img,
+    .story-card-4 img,
+    .story-card-5 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .story-dis {
+        display: none;
+    }
+
+    .story-date {
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.1rem 0.5rem;
+        border-radius: 2rem;
+        background-color: var(--color-2);
+        margin-top: -1rem;
+        margin-left: 2rem;
+    }
+
+    .story-title {
+        padding-top: 10px;
+        margin: 0.8rem;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+        letter-spacing: 0%;
+        text-align: left;
+    }  
+    
+    #enroll{
+        padding: 10px 50px;
+        border-radius: 15px;
+    }
+
+    /* Footer Area */
+
+    footer{
+        flex-direction: column;
+        gap: 4rem;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .f-brand {
+        width: 100%;
+    }
+
+    .f-about {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .f-social{
+        width: 100%;
+    }
+    .f-about-title{
+        margin-bottom: 20px;
+    }
+    .social {
+        padding: 0.5rem 0rem;
+    }
+    
 }
