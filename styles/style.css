@@ -16,16 +16,25 @@
     --color-2: rgb(1, 172, 253);
     --color-3: rgb(5, 212, 223);
     --color-4: rgb(93, 88, 239);
-    --color-5: rgb(17, 17, 17);;
+    --color-5: rgb(17, 17, 17);
+    --color-9: rgb(32, 32, 32);
+    --color-10: rgb(128, 128, 128);
 
 
-    
-    
+    --color-6: linear-gradient(to top, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
+    --color-7: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    --color-8: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    --color-11: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+
 }
 
 a {
     text-decoration: none;
 
+}
+
+section {
+    padding: 60px 0px;
 }
 
 
@@ -40,6 +49,38 @@ a {
 
 }
 
+.btn-extra {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    margin-top: 38px;
+}
+
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+
+.card-title {
+    color: var(--color-9);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 38px;
+}
+
+.card-dis {
+    color: var(--color-10);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-top: 38px;
+}
 
 
 
@@ -116,7 +157,7 @@ nav {
 }
 
 .banner-text {
-    
+
     text-align: left;
     width: 60%;
 }
@@ -126,30 +167,94 @@ nav {
     font-weight: 700;
     line-height: 3.75rem;
 }
-.empower{
+
+.empower {
     color: var(--color-1);
 }
 
-.toword{
+.toword {
     color: var(--color-2);
 }
 
-.banner-dis{
+.banner-dis {
     color: rgb(17, 17, 17);
-font-size: 1.25rem;
-font-weight: 400;
-line-height: 1.5rem;
-margin: 24px 0px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 24px 0px;
 }
 
-#enroll{
+#enroll {
     background-color: var(--color-5);
 }
 
-
-
-
-
 .banner-img>img {
     width: 100%;
+}
+
+
+/* Main Section */
+
+main {
+    background-image: var(--color-6), url("../assets/bg.png");
+    padding: 0% 10vw;
+
+}
+
+/* Curriculum Section */
+
+.curriculum {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+    padding: 1vw 0vw;
+
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.curriculum-card {
+    padding: 62px 30px;
+    width: 32%;
+    box-sizing: border-box;
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.curriculum-card>img {
+    width: 50%;
+}
+
+.card-1 {
+    background: var(--color-7);
+}
+
+.card-2 {
+    background: var(--color-11);
+}
+
+.card-3 {
+    background: var(--color-8);
+}
+
+.more-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+
+.more-card >p{
+    background-color: var(--color-1);
+    padding: 25px 30px;
+    border-radius: 50%;
 }
