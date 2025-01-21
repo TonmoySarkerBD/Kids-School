@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+/* Coommon Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+:root {
+    --color-1: orange;
+    --color-2: SkyBlue;
+    --color-3: rgb(5, 212, 223);
+    --color-4: rgb(93, 88, 239);
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 3vw;
+    background: var(--color-1);
+    border: none;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+
+/* Header Styles */
+
+header {
+    margin: 0px 10%;
+}
+
+
+/* Nav Style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 0px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.nav-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brand-img>img {
+    width: 100%;
+}
+
+.brand-text {
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-menu {
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.nav-1 {
+    color: var(--color-1)
+}
+
+.nav-2 {
+    color: var(--color-2)
+}
+
+.nav-3 {
+    color: var(--color-3)
+}
+
+.nav-4 {
+    color: var(--color-4)
+}
