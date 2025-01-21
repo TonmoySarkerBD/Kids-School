@@ -376,18 +376,108 @@ main {
     text-align: left;
 }
 
-.story-dis{
+.story-dis {
     color: rgb(102, 102, 102);
-font-family: Raleway;
-font-size: 15.34px;
-font-weight: 500;
-line-height: 28.76px;
-letter-spacing: 0%;
-text-align: left;
-margin: 1rem;
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 1rem;
 }
 
-#cd-2{background-color: var(--color-12);}
-#cd-3{background-color: var(--color-1);}
-#cd-4{background-color: var(--color-4);}
-#cd-5{background-color: var(--color-3);}
+#cd-2 {
+    background-color: var(--color-12);
+}
+
+#cd-3 {
+    background-color: var(--color-1);
+}
+
+#cd-4 {
+    background-color: var(--color-4);
+}
+
+#cd-5 {
+    background-color: var(--color-3);
+}
+
+
+
+/* Footer Style */
+
+footer {
+    background: var(--color-2);
+    padding: 10vw;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+
+}
+
+.f-brand {
+    width: 35%;
+}
+
+.f-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.f-logo-img {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+.f-logo-text {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.f-logo-dis {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    text-align: left;
+    margin-top: 35px;
+}
+
+
+.f-about {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+}
+
+.f-about-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.f-about a {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.f-social {
+    width: 30%;
+}
+
+.social {
+    padding: 4rem 0rem;
+}
