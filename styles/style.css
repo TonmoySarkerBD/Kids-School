@@ -12,10 +12,15 @@
 }
 
 :root {
-    --color-1: orange;
-    --color-2: SkyBlue;
+    --color-1: rgb(254, 163, 1);
+    --color-2: rgb(1, 172, 253);
     --color-3: rgb(5, 212, 223);
     --color-4: rgb(93, 88, 239);
+    --color-5: rgb(17, 17, 17);;
+
+
+    
+    
 }
 
 a {
@@ -97,4 +102,54 @@ nav {
 
 .nav-4 {
     color: var(--color-4)
+}
+
+
+/* Banner Section */
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-text {
+    
+    text-align: left;
+    width: 60%;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+.empower{
+    color: var(--color-1);
+}
+
+.toword{
+    color: var(--color-2);
+}
+
+.banner-dis{
+    color: rgb(17, 17, 17);
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.5rem;
+margin: 24px 0px;
+}
+
+#enroll{
+    background-color: var(--color-5);
+}
+
+
+
+
+
+.banner-img>img {
+    width: 100%;
 }
